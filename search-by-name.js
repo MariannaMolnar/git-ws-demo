@@ -2,7 +2,7 @@
 
 // Execute: node search-by-name.js Cir
 
-// Example: node searcg-by-name.js irm
+// Example: node search-by-name.js irm
 //  it will outputs:
 //    Cirmi
 //    Cirmos
@@ -12,9 +12,14 @@
 const catNames = ['Cirmi', 'Cirmos', 'Vakarcs', 'Butyok', 'Bubu']
 
 function main(keyword) {
-    console.log('keyword:', keyword)
+    /* console.log('keyword:', keyword) */
+    for (const pet of catNames) {
+        if(pet.includes(keyword)){
+            console.log(pet)
+        }
+    }
     // Tip: string.prototype.includes()
 }
 
-main(process.argv[2])
+main("Cir")
 
