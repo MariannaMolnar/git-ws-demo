@@ -8,7 +8,7 @@
 //  ...
 
 
-const pets = ['Cat', 'Dog', 'Hamster', 'Guinea Pig', 'Salmon']
+const pets = ['Cat', 'Dog', 'Hamster', 'Guinea Pig', 'Salmon', 'Zebra', 'Axolotl']
 
 function main() {
     pets.forEach((pet, index) => {
