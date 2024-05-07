@@ -11,8 +11,24 @@
 function main(language) {
   console.log('language:', language)
   // The language variable will be the language from the command line. 
-
+  switch (language) {
+    case "Hungarian":
+      console.log('cicc-cicc')
+      break;
+    case "Chinese":
+      console.log('miao-miao')
+      break;
+    case "Tunisian":
+      console.log('besh-besh')
+      break;
+    case "Japanese":
+      console.log('neko chan oide')
+      break;
+    default:
+      console.log('kitty-kitty')
+      break;
+  }
 }
 
-main(process.argv[2])
+main("")
 
